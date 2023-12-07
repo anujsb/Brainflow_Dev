@@ -169,10 +169,3 @@ button:focus-visible {
   /* margin-inline-start: 20px; */
 }
 
-.card-25 {
-  flex-basis: 25%;
-}
-
-.card-50 {
-  flex-basis: 50%;
-}
