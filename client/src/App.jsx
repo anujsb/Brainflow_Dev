@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom" ;
 import Hero from './components/Hero';
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
+import Contact from "./components/contact";
 // import { Component } from "react"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       </div>
       <Services/>
+      <Contact />
     </BrowserRouter>
   )
 }
