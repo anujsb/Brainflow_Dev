@@ -1,7 +1,8 @@
 // import React from 'react';
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
-import Scene from "./3d/ball";
+// import Scene from "./3d/ball";
+import obj from "../assets/images";
 
 
 
@@ -32,7 +33,6 @@ const Hero = () => {
 
   return (
     <section className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto background-hero bg-white">
-      {/* <Scene /> */}
       <div className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16">
         <div className="flex flex-col justify-center items-start row-start-2 sm:row-start-1">
           <h1 className="text-5xl subpixel-antialiased font-light tracking-wide leading-loose text-black">
@@ -47,7 +47,15 @@ const Hero = () => {
 
         <div className="flex w-full">
           <div className='h-full w-full'>
-            {/* <Scene />    */}
+          {/* <source src={obj} alt='logo' className='logo'  */}
+          {/* /> */}
+            {/* <img src ={"src/assets/gotilo.mp4"}/> */}
+            {/* <source 
+            src={"src/assets/gotilo.mp4"}
+            alt="VPN Illustrasi"
+                width={612}
+                height={383} /> */}
+
           </div>
         </div>
       </div>
