@@ -24,8 +24,8 @@ const Navbar = () => {
       }, []);
 
     return(
-        <nav className={`${ scrollActive ? " shadow-md pt-0 bg-opacity-50  " : " pt-3 "}
-                sm:px-16 fixed top-0 w-full  z-30 bg-white`}>
+        <nav className={`${ scrollActive ? " shadow-lg pt-0  backdrop-blur-md" : " pt-3 "}
+                sm:px-16 fixed top-0 w-full  z-30 `}>
             
           <div className="w-full flex justify-between items-center max-w-7xl mx-auto "> 
 
@@ -45,8 +45,8 @@ const Navbar = () => {
                         <li
                             key={nav.id}
                             className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                                active === nav.title ? "text-white" : "text-secondary" } 
-                                text-black hover:text-slate-500  hover:font-medium text-[18px] cursor-pointer subpixel-antialiased font-light tracking-wide leading-loose`}
+                                active === nav.title ? "text-white" : "text-white text-lg" } 
+                                text-black hover:text-lg hover:underline text-[18px] cursor-pointer subpixel-antialiased font-light tracking-wide leading-loose`}
                             onClick={() => setActive(nav.title)}
                             >
                                 <a href={`#${nav.id}`}>{nav.title}</a>
