@@ -11,8 +11,8 @@ const Contact = () => {
 
 
   return (
-    <div className=" xl:mt-12 flex xl:flex-row flex-col-reverse overflow-hidden background-hero">
-        <div className="p-8 m-10 rounded-2xl border shadow-lg w-1/3">
+    <div className="  flex xl:flex-row flex-col-reverse overflow-hidden background-hero shadow-lg">
+        <div className="p-8 m-20 rounded-2xl border shadow-lg w-1/3 ">
             <p className="sm:text-[18px] text-[14px] uppercase tracking-wider">Get in touch</p>
 
             <form className='mt-3 flex flex-col gap-2'>
@@ -23,7 +23,7 @@ const Contact = () => {
                         name='name'
                         value={form.name}
                         placeholder="name"
-                        className='py-4 px-6 rounded-lg border shadow-md font-medium bg-[#282941]'
+                        className='py-4 px-6 rounded-lg border shadow-md font-medium bg-transparent'
                     />
 
                 </label>
@@ -34,7 +34,7 @@ const Contact = () => {
                         name='name'
                         value={form.name}
                         placeholder="name"
-                        className='py-4 px-6 rounded-lg border shadow-md font-medium bg-[#282941]'
+                        className='py-4 px-6 rounded-lg border shadow-md font-medium bg-transparent'
                     />
 
                 </label>
@@ -45,7 +45,7 @@ const Contact = () => {
                         name='name'
                         value={form.name}
                         placeholder="name"
-                        className='py-4 px-6 rounded-lg border shadow-md font-medium bg-[#282941]'
+                        className='py-4 px-6 rounded-lg border shadow-md font-medium bg-transparent'
                     />
 
                 </label>
@@ -56,14 +56,14 @@ const Contact = () => {
                         name='name'
                         value={form.name}
                         placeholder="name"
-                        className='py-4 px-6 rounded-lg border shadow-md font-medium bg-[#282941]'
+                        className='py-4 px-6 rounded-lg border shadow-md font-medium bg-transparent'
                     />
 
                 </label>
 
                 <button
                     type='submit'
-                    className='py-3 px-8 rounded-xl outline-none w-fit font-bold shadow-md shadow-primary '
+                    className='py-3 px-8 rounded-xl border-white w-fit font-bold shadow-md shadow-primary  '
                     >
                     {/* {loading ? "Sending..." : "Send"} */}
                     Send

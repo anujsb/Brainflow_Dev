@@ -47,7 +47,10 @@ const Hero = () => {
 
         <div className="flex w-full flex-col justify-center items-start   mt-24">
           <div className='h-full w-full'>
-          <Spline scene="https://prod.spline.design/KIClsoN4aLneStrR/scene.splinecode" />
+          {/* <Spline scene="https://prod.spline.design/KIClsoN4aLneStrR/scene.splinecode" /> */}
+          <Spline scene="https://prod.spline.design/R7PxIF2Dy0P0j3zw/scene.splinecode" />
+
+          
 
           </div>
         </div>
