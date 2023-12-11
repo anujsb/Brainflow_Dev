@@ -18,6 +18,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -98,9 +99,9 @@ button:focus-visible {
 
   /* background-image: url('/darkbg.png'); */
   /* background-image: url('/darkbg1.png'); */
-  /* background-image: url('/darkbg2.png'); */
+  background-image: url('/darkbg2.png');
   /* background-image: url('/darkbg3.png'); */
-  background-image: url('/darkbg5.png');
+  /* background-image: url('/darkbg5.png'); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Contact from "./components/contact";
+import Testimonial from "./components/Testimonial";
 // import { Component } from "react"
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       </div>
       <Services/>
+      <Testimonial/>
       <Contact />
     </BrowserRouter>
   )

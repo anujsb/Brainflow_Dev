@@ -10,21 +10,21 @@ const Services = () => {
           <circle cx="13.5" cy="43.5" r="3.5" transform="rotate(-90 13.5 43.5)" fill="white"></circle>
           <circle cx="23.5" cy="43.5" r="3.5" transform="rotate(-90 23.5 43.5)" fill="white"></circle>
           <circle cx="33.5" cy="43.5" r="3.5" transform="rotate(-90 33.5 43.5)" fill="white"></circle>
-          <circle cx="43.5" cy="43.5" r="3.5" transform="rotate(-90 43.5 43.5)" fill="white"></circle>
+          <circle cx="43.5" cy="43.5" r="3.5" transform="rotate(-90 43.5 43.5)" fill="#FF2000"></circle>
           <circle cx="53.5" cy="43.5" r="3.5" transform="rotate(-90 53.5 43.5)" fill="white"></circle>
           <circle cx="63.5" cy="43.5" r="3.5" transform="rotate(-90 63.5 43.5)" fill="white"></circle>
-          <circle cx="73.5" cy="43.5" r="3.5" transform="rotate(-90 73.5 43.5)" fill="white"></circle>
+          <circle cx="73.5" cy="43.5" r="3.5" transform="rotate(-90 73.5 43.5)" fill="#FF2000"></circle>
           <circle cx="83.5" cy="43.5" r="3.5" transform="rotate(-90 83.5 43.5)" fill="white"></circle>
-          <circle cx="93.5" cy="43.5" r="3.5" transform="rotate(-90 93.5 43.5)" fill="white"></circle>
+          <circle cx="93.5" cy="43.5" r="3.5" transform="rotate(-90 93.5 43.5)" fill="#FF2000"></circle>
           <circle cx="103.5" cy="43.5" r="3.5" transform="rotate(-90 103.5 43.5)" fill="white"></circle>
           <circle cx="113.5" cy="43.5" r="3.5" transform="rotate(-90 113.5 43.5)" fill="white"></circle>
           <circle cx="123.5" cy="43.5" r="3.5" transform="rotate(-90 123.5 43.5)" fill="white"></circle>
           <circle cx="133.5" cy="43.5" r="3.5" transform="rotate(-90 133.5 43.5)" fill="white"></circle>
-          <circle cx="143.5" cy="43.5" r="3.5" transform="rotate(-90 143.5 43.5)" fill="white"></circle>
+          <circle cx="143.5" cy="43.5" r="3.5" transform="rotate(-90 143.5 43.5)" fill="#FF2000"></circle>
           <circle cx="3.5" cy="33.5" r="3.5" transform="rotate(-90 3.5 33.5)" fill="#FF2000"></circle>
           <circle cx="13.5" cy="33.5" r="3.5" transform="rotate(-90 13.5 33.5)" fill="white"></circle>
           <circle cx="23.5" cy="33.5" r="3.5" transform="rotate(-90 23.5 33.5)" fill="white"></circle>
-          <circle cx="33.5" cy="33.5" r="3.5" transform="rotate(-90 33.5 33.5)" fill="white"></circle>
+          <circle cx="33.5" cy="33.5" r="3.5" transform="rotate(-90 33.5 33.5)" fill="#FF2000"></circle>
           <circle cx="43.5" cy="33.5" r="3.5" transform="rotate(-90 43.5 33.5)" fill="white"></circle>
           <circle cx="53.5" cy="33.5" r="3.5" transform="rotate(-90 53.5 33.5)" fill="white"></circle>
           <circle cx="63.5" cy="33.5" r="3.5" transform="rotate(-90 63.5 33.5)" fill="white"></circle>
@@ -61,7 +61,7 @@ const Services = () => {
           <circle cx="73.5" cy="13.5" r="3.5" transform="rotate(-90 73.5 13.5)" fill="white"></circle>
           <circle cx="83.5" cy="13.5" r="3.5" transform="rotate(-90 83.5 13.5)" fill="white"></circle>
           <circle cx="93.5" cy="13.5" r="3.5" transform="rotate(-90 93.5 13.5)" fill="white"></circle>
-          <circle cx="103.5" cy="13.5" r="3.5" transform="rotate(-90 103.5 13.5)" fill="white"></circle>
+          <circle cx="103.5" cy="13.5" r="3.5" transform="rotate(-90 103.5 13.5)" fill="#FF2000"></circle>
           <circle cx="113.5" cy="13.5" r="3.5" transform="rotate(-90 113.5 13.5)" fill="white"></circle>
           <circle cx="123.5" cy="13.5" r="3.5" transform="rotate(-90 123.5 13.5)" fill="white"></circle>
           <circle cx="133.5" cy="13.5" r="3.5" transform="rotate(-90 133.5 13.5)" fill="white"></circle>
@@ -73,13 +73,13 @@ const Services = () => {
           <circle cx="43.5" cy="3.5" r="3.5" transform="rotate(-90 43.5 3.5)" fill="white"></circle>
           <circle cx="53.5" cy="3.5" r="3.5" transform="rotate(-90 53.5 3.5)" fill="white"></circle>
           <circle cx="63.5" cy="3.5" r="3.5" transform="rotate(-90 63.5 3.5)" fill="white"></circle>
-          <circle cx="73.5" cy="3.5" r="3.5" transform="rotate(-90 73.5 3.5)" fill="white"></circle>
+          <circle cx="73.5" cy="3.5" r="3.5" transform="rotate(-90 73.5 3.5)" fill="#FF2000"></circle>
           <circle cx="83.5" cy="3.5" r="3.5" transform="rotate(-90 83.5 3.5)" fill="white"></circle>
           <circle cx="93.5" cy="3.5" r="3.5" transform="rotate(-90 93.5 3.5)" fill="white"></circle>
           <circle cx="103.5" cy="3.5" r="3.5" transform="rotate(-90 103.5 3.5)" fill="white"></circle>
           <circle cx="113.5" cy="3.5" r="3.5" transform="rotate(-90 113.5 3.5)" fill="white"></circle>
           <circle cx="123.5" cy="3.5" r="3.5" transform="rotate(-90 123.5 3.5)" fill="white"></circle>
-          <circle cx="133.5" cy="3.5" r="3.5" transform="rotate(-90 133.5 3.5)" fill="white"></circle>
+          <circle cx="133.5" cy="3.5" r="3.5" transform="rotate(-90 133.5 3.5)" fill="#FF2000"></circle>
           <circle cx="143.5" cy="3.5" r="3.5" transform="rotate(-90 143.5 3.5)" fill="white"></circle>
         </svg>
         <p className=" text-lg">asdfghjkiuytfvbnj paragraph</p>
@@ -89,16 +89,16 @@ const Services = () => {
           <circle cx="23.5" cy="43.5" r="3.5" transform="rotate(-90 23.5 43.5)" fill="white"></circle>
           <circle cx="33.5" cy="43.5" r="3.5" transform="rotate(-90 33.5 43.5)" fill="white"></circle>
           <circle cx="43.5" cy="43.5" r="3.5" transform="rotate(-90 43.5 43.5)" fill="white"></circle>
-          <circle cx="53.5" cy="43.5" r="3.5" transform="rotate(-90 53.5 43.5)" fill="white"></circle>
+          <circle cx="53.5" cy="43.5" r="3.5" transform="rotate(-90 53.5 43.5)" fill="#060407"></circle>
           <circle cx="63.5" cy="43.5" r="3.5" transform="rotate(-90 63.5 43.5)" fill="white"></circle>
           <circle cx="73.5" cy="43.5" r="3.5" transform="rotate(-90 73.5 43.5)" fill="white"></circle>
           <circle cx="83.5" cy="43.5" r="3.5" transform="rotate(-90 83.5 43.5)" fill="white"></circle>
-          <circle cx="93.5" cy="43.5" r="3.5" transform="rotate(-90 93.5 43.5)" fill="white"></circle>
+          <circle cx="93.5" cy="43.5" r="3.5" transform="rotate(-90 93.5 43.5)" fill="#060407"></circle>
           <circle cx="103.5" cy="43.5" r="3.5" transform="rotate(-90 103.5 43.5)" fill="white"></circle>
           <circle cx="113.5" cy="43.5" r="3.5" transform="rotate(-90 113.5 43.5)" fill="white"></circle>
           <circle cx="123.5" cy="43.5" r="3.5" transform="rotate(-90 123.5 43.5)" fill="white"></circle>
           <circle cx="133.5" cy="43.5" r="3.5" transform="rotate(-90 133.5 43.5)" fill="white"></circle>
-          <circle cx="143.5" cy="43.5" r="3.5" transform="rotate(-90 143.5 43.5)" fill="white"></circle>
+          <circle cx="143.5" cy="43.5" r="3.5" transform="rotate(-90 143.5 43.5)" fill="#060407"></circle>
           <circle cx="3.5" cy="33.5" r="3.5" transform="rotate(-90 3.5 33.5)" fill="#060407"></circle>
           <circle cx="13.5" cy="33.5" r="3.5" transform="rotate(-90 13.5 33.5)" fill="white"></circle>
           <circle cx="23.5" cy="33.5" r="3.5" transform="rotate(-90 23.5 33.5)" fill="white"></circle>
@@ -109,13 +109,13 @@ const Services = () => {
           <circle cx="73.5" cy="33.5" r="3.5" transform="rotate(-90 73.5 33.5)" fill="white"></circle>
           <circle cx="83.5" cy="33.5" r="3.5" transform="rotate(-90 83.5 33.5)" fill="white"></circle>
           <circle cx="93.5" cy="33.5" r="3.5" transform="rotate(-90 93.5 33.5)" fill="white"></circle>
-          <circle cx="103.5" cy="33.5" r="3.5" transform="rotate(-90 103.5 33.5)" fill="white"></circle>
+          <circle cx="103.5" cy="33.5" r="3.5" transform="rotate(-90 103.5 33.5)" fill="#060407"></circle>
           <circle cx="113.5" cy="33.5" r="3.5" transform="rotate(-90 113.5 33.5)" fill="white"></circle>
           <circle cx="123.5" cy="33.5" r="3.5" transform="rotate(-90 123.5 33.5)" fill="white"></circle>
           <circle cx="133.5" cy="33.5" r="3.5" transform="rotate(-90 133.5 33.5)" fill="white"></circle>
           <circle cx="143.5" cy="33.5" r="3.5" transform="rotate(-90 143.5 33.5)" fill="white"></circle>
           <circle cx="3.5" cy="23.5" r="3.5" transform="rotate(-90 3.5 23.5)" fill="white"></circle>
-          <circle cx="13.5" cy="23.5" r="3.5" transform="rotate(-90 13.5 23.5)" fill="white"></circle>
+          <circle cx="13.5" cy="23.5" r="3.5" transform="rotate(-90 13.5 23.5)" fill="#060407"></circle>
           <circle cx="23.5" cy="23.5" r="3.5" transform="rotate(-90 23.5 23.5)" fill="white"></circle>
           <circle cx="33.5" cy="23.5" r="3.5" transform="rotate(-90 33.5 23.5)" fill="white"></circle>
           <circle cx="43.5" cy="23.5" r="3.5" transform="rotate(-90 43.5 23.5)" fill="white"></circle>
@@ -126,16 +126,16 @@ const Services = () => {
           <circle cx="93.5" cy="23.5" r="3.5" transform="rotate(-90 93.5 23.5)" fill="#060407"></circle>
           <circle cx="103.5" cy="23.5" r="3.5" transform="rotate(-90 103.5 23.5)" fill="white"></circle>
           <circle cx="113.5" cy="23.5" r="3.5" transform="rotate(-90 113.5 23.5)" fill="white"></circle>
-          <circle cx="123.5" cy="23.5" r="3.5" transform="rotate(-90 123.5 23.5)" fill="white"></circle>
+          <circle cx="123.5" cy="23.5" r="3.5" transform="rotate(-90 123.5 23.5)" fill="#060407"></circle>
           <circle cx="133.5" cy="23.5" r="3.5" transform="rotate(-90 133.5 23.5)" fill="white"></circle>
           <circle cx="143.5" cy="23.5" r="3.5" transform="rotate(-90 143.5 23.5)" fill="white"></circle>
           <circle cx="3.5" cy="13.5" r="3.5" transform="rotate(-90 3.5 13.5)" fill="white"></circle>
           <circle cx="13.5" cy="13.5" r="3.5" transform="rotate(-90 13.5 13.5)" fill="white"></circle>
-          <circle cx="23.5" cy="13.5" r="3.5" transform="rotate(-90 23.5 13.5)" fill="white"></circle>
+          <circle cx="23.5" cy="13.5" r="3.5" transform="rotate(-90 23.5 13.5)" fill="#060407"></circle>
           <circle cx="33.5" cy="13.5" r="3.5" transform="rotate(-90 33.5 13.5)" fill="white"></circle>
           <circle cx="43.5" cy="13.5" r="3.5" transform="rotate(-90 43.5 13.5)" fill="white"></circle>
           <circle cx="53.5" cy="13.5" r="3.5" transform="rotate(-90 53.5 13.5)" fill="white"></circle>
-          <circle cx="63.5" cy="13.5" r="3.5" transform="rotate(-90 63.5 13.5)" fill="white"></circle>
+          <circle cx="63.5" cy="13.5" r="3.5" transform="rotate(-90 63.5 13.5)" fill="#060407"></circle>
           <circle cx="73.5" cy="13.5" r="3.5" transform="rotate(-90 73.5 13.5)" fill="white"></circle>
           <circle cx="83.5" cy="13.5" r="3.5" transform="rotate(-90 83.5 13.5)" fill="white"></circle>
           <circle cx="93.5" cy="13.5" r="3.5" transform="rotate(-90 93.5 13.5)" fill="white"></circle>
@@ -146,7 +146,7 @@ const Services = () => {
           <circle cx="143.5" cy="13.5" r="3.5" transform="rotate(-90 143.5 13.5)" fill="white"></circle>
           <circle cx="3.5" cy="3.5" r="3.5" transform="rotate(-90 3.5 3.5)" fill="white"></circle>
           <circle cx="13.5" cy="3.5" r="3.5" transform="rotate(-90 13.5 3.5)" fill="white"></circle>
-          <circle cx="23.5" cy="3.5" r="3.5" transform="rotate(-90 23.5 3.5)" fill="white"></circle>
+          <circle cx="23.5" cy="3.5" r="3.5" transform="rotate(-90 23.5 3.5)" fill="#060407"></circle>
           <circle cx="33.5" cy="3.5" r="3.5" transform="rotate(-90 33.5 3.5)" fill="white"></circle>
           <circle cx="43.5" cy="3.5" r="3.5" transform="rotate(-90 43.5 3.5)" fill="white"></circle>
           <circle cx="53.5" cy="3.5" r="3.5" transform="rotate(-90 53.5 3.5)" fill="white"></circle>
@@ -158,7 +158,7 @@ const Services = () => {
           <circle cx="113.5" cy="3.5" r="3.5" transform="rotate(-90 113.5 3.5)" fill="white"></circle>
           <circle cx="123.5" cy="3.5" r="3.5" transform="rotate(-90 123.5 3.5)" fill="white"></circle>
           <circle cx="133.5" cy="3.5" r="3.5" transform="rotate(-90 133.5 3.5)" fill="white"></circle>
-          <circle cx="143.5" cy="3.5" r="3.5" transform="rotate(-90 143.5 3.5)" fill="white"></circle>
+          <circle cx="143.5" cy="3.5" r="3.5" transform="rotate(-90 143.5 3.5)" fill="#060407"></circle>
         </svg>
       </div>
       <div className="flex mr-10 ml-10 opacity">

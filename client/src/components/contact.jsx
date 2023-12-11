@@ -12,7 +12,7 @@ const Contact = () => {
 
   return (
     <div className="  flex xl:flex-row flex-col-reverse overflow-hidden background-hero shadow-lg">
-        <div className="p-8 m-20 rounded-2xl border shadow-lg w-1/3 ">
+        <div className="p-8 m-20  rounded-2xl border shadow-lg w-1/3 h-max">
             <p className="sm:text-[18px] text-[14px] uppercase tracking-wider">Get in touch</p>
 
             <form className='mt-3 flex flex-col gap-2'>
