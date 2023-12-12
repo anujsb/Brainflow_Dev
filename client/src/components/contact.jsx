@@ -1,89 +1,61 @@
 import React, { useRef, useState } from "react";
+import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
     // const formRef = useRef();
-  const [form] = useState({
+  const [form] = useRef({
     name: "",
     email: "",
     message: "",
   });
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_096g6hi', 'template_fs8mb0v', form.current, 'VEEQUeZlZ37NbwBuI')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
 
 
-  return (
-    <div className="  flex xl:flex-row flex-col-reverse overflow-hidden background-hero shadow-lg">
-        <div className="p-8 m-20  rounded-2xl border shadow-lg w-1/3 h-max">
+return(
+    <div className="flex xl:flex-row flex-col-reverse overflow-hidden background-hero shadow-lg min-h-screen justify-center items-center">
+        <div className="p-8 content-center rounded-2xl border shadow-lg w-1/2 h-max">
             <p className="sm:text-[18px] text-[14px] uppercase tracking-wider">Get in touch</p>
-
-            <form className='mt-3 flex flex-col gap-2'>
-                <label className="flex flex-col ">
-                    <span className="font-medium mb-2">Name*</span>
-                    <input
-                        type='text'
-                        name='name'
-                        value={form.name}
-                        placeholder="name"
-                        className='py-4 px-6 rounded-lg border shadow-md font-medium bg-transparent'
-                    />
-
-                </label>
-                <label className="flex flex-col ">
-                    <span className="font-medium mb-2">Email*</span>
-                    <input
-                        type='text'
-                        name='name'
-                        value={form.name}
-                        placeholder="name"
-                        className='py-4 px-6 rounded-lg border shadow-md font-medium bg-transparent'
-                    />
-
-                </label>
-                <label className="flex flex-col ">
-                    <span className="font-medium mb-2">Phone number*</span>
-                    <input
-                        type='text'
-                        name='name'
-                        value={form.name}
-                        placeholder="name"
-                        className='py-4 px-6 rounded-lg border shadow-md font-medium bg-transparent'
-                    />
-
-                </label>
-                <label className="flex flex-col ">
-                    <span className="font-medium mb-2">Firm Size*</span>
-                    <input
-                        type='text'
-                        name='name'
-                        value={form.name}
-                        placeholder="name"
-                        className='py-4 px-6 rounded-lg border shadow-md font-medium bg-transparent'
-                    />
-
-                </label>
-
-                <button
-                    type='submit'
-                    className='py-3 px-8 rounded-xl border-white w-fit font-bold shadow-md shadow-primary  '
-                    >
-                    {/* {loading ? "Sending..." : "Send"} */}
-                    Send
-                </button>
-            </form>
-            <div className="flex w-full">
-                <div className="h-full w-full">
-                    <image
-                    src=""
-                    alt="VPN Illustrasi"
-                    width={612}
-                    height={383}
-                    >   </image>
-                </div>
-          </div>
+                <form 
+                ref={form}
+                onSubmit={sendEmail}
+                className='mt-3 flex flex-col gap-2 '>
+                    <label className=" flex-col  ">
+                        <div className="">
+                                <input
+                                type='text'
+                                name='name'
+                                value={form.name}
+                                placeholder="Email"
+                                className=' py-4 px-6 rounded-lg border shadow-md font-medium bg-transparent'
+                            />    
+                            {/* <span className="ml-2 place-self-end border">Name*</span> */}
+                        </div>
+                       
+                       </label>
+                       <button
+                            type='submit'
+                            className='py-3 px-8 rounded-xl border-white w-fit font-bold shadow-md shadow-primary  '
+                            >
+                            {/* {loading ? "Sending..." : "Send"} */}
+                            Send
+                        </button>
+                </form>
         </div>
-
-        
     </div>
-  );
+)
+
 };
 
 export default Contact;
