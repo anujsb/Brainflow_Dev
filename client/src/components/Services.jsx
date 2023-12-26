@@ -1,7 +1,10 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Services = () => {
+
   return (
+    
     <div className="background-hero h-full flex-1 ">
       <div className="mr-10 ml-10 flex justify-between mb-10 items-start">
         <h1 className=" list-disc">Services</h1>
@@ -161,17 +164,22 @@ const Services = () => {
           <circle cx="143.5" cy="3.5" r="3.5" transform="rotate(-90 143.5 3.5)" fill="#060407"></circle>
         </svg>
       </div>
-      <div className="flex mr-10 ml-10 opacity">
-        <div className="card flow-root shadow-xl items-center bot1 ">
-          <h1 className=" text-4xl ">Automations</h1>
+      <div className="flex mr-10 ml-10 opacity" >
+        <motion.div 
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          className="card flow-root shadow-xl items-center bot1"
+          
+        >
+          <h1 className=" text-4xl ">service 1</h1>
           <div className=" border border-black rounded-2xl  bg-black mt-5 h-40 w-70  ">
             <p className="m-5 text-lg ">qwert asdfgh</p>
           </div>
-        </div>
+        </motion.div>
 
         <div className="card flow-root shadow-xl items-center  ">
           <div className="">
-            <h1 className="text-4xl">ChatBots </h1>
+            <h1 className="text-4xl">service </h1>
           </div>
           <div className=" border border-black rounded-2xl bg-black mt-5 h-40 w-70 bg-opacity-70 ">
             <p className="m-5 text-lg ">qwert asdfgh</p>

@@ -97,9 +97,9 @@ button:focus-visible {
 .background-hero{
   /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
 
-  /* background-image: url('/darkbg.png'); */
-  /* background-image: url('/darkbg1.png'); */
-  background-image: url('/darkbg2.png');
+  background-image: url('/darkbg.png');
+  background-image: url('/darkbg1.png');
+  /* background-image: url('/darkbg2.png'); */
   /* background-image: url('/darkbg3.png'); */
   /* background-image: url('/darkbg5.png'); */
   background-size: cover;
