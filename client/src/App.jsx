@@ -11,7 +11,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="background-hero ">
+      <div className="">
       <Navbar />
       <Hero />
       </div>
